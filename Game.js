@@ -8,7 +8,7 @@ let attemp = true;
 console.log('Choose clue (Ahmed, Ali, mohamed):');
 
 while (attemp == true) {
-    clue = prompt("Enter your guess (Ahmed,Ali,Mohamed):"); 
+    clue = prompt("Enter your guess 'Ahmed,Ali,Mohamed':"); 
     console.log(clue);
     if (clue == clue1) {
         console.log('Ahmed is the correct answer');
